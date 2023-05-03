@@ -1,0 +1,215 @@
+
+<!doctype html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+<head>
+<title>i-Ready</title>
+</head>
+<style>
+   body {
+       margin: unset;
+   }
+   #main-wrapper {
+       padding-top: 50px;
+       padding-bottom: 110px;
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       min-width: 470px;;
+   }
+   #header {
+    height: 50px;
+    margin-top: -50px;
+    background-color: #f7f5f5;
+   }
+   #footer {
+       height: 110px;
+       margin-bottom: -110px;
+       width: 100%;
+       background-color: #f7f5f5;
+       position: absolute;
+   }
+   #content {
+        background-color: #00bcd4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 608px;
+        height: 100%;
+        overflow: auto;
+   }
+   #footer-title, #footer-description, #footer-address, #footer-copyright {
+       text-align: center;
+   }
+   #footer-title {
+       padding-top: 16px;
+   }
+   #footer-description {
+        padding-top: 11px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px;
+        color: #848484;
+        font-style: italic;
+   }
+   #footer-address {
+       padding-top: 10px;
+   }
+   #footer-address-text, #footer-copyright-text {
+       font-family: 'Roboto', sans-serif;
+       font-size: 12px;
+       font-weight: 500;
+       line-height: 16px;
+       color: #848484;
+   }
+
+   #header-links-container {
+       float: right;
+       padding-right: 40px;
+       padding-top: 15px;
+   }
+
+   .footer-links, .header-links {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: #4c94fc;
+   }
+   .footer-links{
+        font-size: 12px;
+   }
+   .header-links {
+        font-size: 18px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: 400;
+   }
+   .header-links#one{
+        content: '';
+        border-right: 1px solid #b9b9b9;
+        height: 18px;
+        top: 12px;
+   }
+  
+   #maintenance-card {
+       width: 470px;
+       position: relative;
+       display: block;
+   }
+   #left-figure {
+    position: absolute;
+    top: 0px;
+    left: -232px;
+   }
+   #right-figure {
+    position: absolute;
+    right: -171px;
+    top: -25px 
+   }
+   #maintenance-card-header {
+       background-color: #ffffff;;;
+       height: 100px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   #maintenance-card-body {
+    background-color: #f7f5f5;
+    height: 260px;
+   }
+   .message-text, .message-title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+   }
+   .message-text {
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 60px;
+    padding-left: 60px;
+   }
+
+   .message-title {
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 60px;
+   }
+
+</style>
+<body>
+    <div id="main-wrapper">
+        <div id="header">
+            <div id="header-links-container">
+                <a  class="header-links" id="one"
+                    href="http://i-readycentral.com/familycenter/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Family Center
+                </a>
+                <!-- <span id="header-separator"> | </span> -->
+                <a  class="header-links" id="two"
+                    href="https://www.curriculumassociates.com/Products/i-Ready"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    About i-Ready
+                </a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="maintenance-card">
+                <div id="maintenance-card-header">
+                    <img src="icon_login_iReadyLogoLarge.svg" />
+                </div>
+                <div id="maintenance-card-body">
+                    <div class="message-title">
+                        We're Sorry.
+                    </div>
+                    <div class="message-text">
+                        We're upgrading and will be back online shortly.
+                    </div>
+                    <div class="message-text">
+                        Please try again later.
+                    </div>
+                </div>
+                <img id="left-figure" src="login_03a_figuresLeft.svg"/>
+                <img id="right-figure" src="login_03b_figureRight.svg" />
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footer-title">
+                <img src= 'icon_login_logoCA.svg'/>
+            </div>
+            <div id="footer-description">
+                <span>i-Ready integrates powerful assessments with engaging instruction to help all students grow and succeed.</span>
+            </div>
+            <div id="footer-address">
+                <span id="footer-address-text">
+                    153 Rangeway Road, North Billerica, MA 01862; Email: 
+                </span> 
+                <a class="footer-links" href="mailto:info@cainc.com"> info@cainc.com </a>
+            </div>
+            <div id="footer-copyright">
+                <span id="footer-copyright-text">
+                    &#169; 2019 Curriculum Associates, LLC, All Rights Reserved
+                </span>
+                <span> | </span>
+                <a class="footer-links"
+                    href="http://www.i-ready.com/support/iReady_DataHandlingPolicy.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Privacy Policy
+                </a>
+                <span> | </span>
+                <a  class="footer-links"
+                    href="http://www.i-ready.com/support/iReadyTerms-of-Use-December-2015.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Terms of use
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
